@@ -12,8 +12,8 @@
     tools:context="com.example.dell.attribute.MainActivity">
 
     <com.example.dell.attribute.MyTextView
-        android:layout_width="100dp"
-        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         why:testAttr="520"
-        why:text="helloworld" />
+        why:text="霍彦朋" />
 </RelativeLayout>
