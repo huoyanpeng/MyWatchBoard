@@ -80,8 +80,8 @@ public class Neifangwaiyuan extends View {
 
         mRegion = new Region();
         mRegion1 = new Region();
-        mRegion.setPath(path0, new Region(0, 0, 1000, 1000));
-        mRegion1.setPath(path, new Region(0, 0, 1000, 1000));
+        mRegion.setPath(path0, new Region(0, 0, getWidth(), getHeight()));
+        mRegion1.setPath(path, new Region(0, 0, getWidth(), getHeight()));
     }
 
     @Override
@@ -95,10 +95,15 @@ public class Neifangwaiyuan extends View {
                 break;
             case MotionEvent.ACTION_UP:
                 if (mRegion.contains(w, h)) {
-                    mListener.onClick(this);
+                    if (mListener!=null) {
+                        mListener.onClick(this);
+                    }
+
                 }
                 if (mRegion1.contains(w, h)) {
-                    m.onClick(this);
+                    if (m!=null){
+                        m.onClick(this);
+                    }
                 }
                 break;
         }

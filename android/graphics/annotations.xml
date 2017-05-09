@@ -1,0 +1,5 @@
+<root>
+  <item name='android.graphics.Path.Op DIFFERENCE'>
+    <annotation name='java.lang.annotation.Deprecated' />
+  </item>
+</root>

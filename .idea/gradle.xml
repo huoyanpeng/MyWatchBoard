@@ -11,6 +11,10 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/自定义view" />
             <option value="$PROJECT_DIR$/自定义view01" />
+            <option value="$PROJECT_DIR$/自定义viewfour" />
+            <option value="$PROJECT_DIR$/自定义viewthree" />
+            <option value="$PROJECT_DIR$/自定义viewtwo" />
+            <option value="$PROJECT_DIR$/自定义view太极图" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
