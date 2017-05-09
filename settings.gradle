@@ -1,1 +1,1 @@
-include ':app', ':自定义view01', ':自定义view', ':自定义viewtwo', ':自定义viewthree', ':自定义viewfour', ':自定义view太极图', ':自定义androidview属性', ':自定义view百分比'
+include ':app', ':自定义view01', ':自定义view', ':自定义viewtwo', ':自定义viewthree', ':自定义viewfour', ':自定义view太极图', ':自定义androidview属性', ':自定义view百分比', ':自定义attribute'

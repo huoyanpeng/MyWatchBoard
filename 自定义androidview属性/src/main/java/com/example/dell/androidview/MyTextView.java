@@ -30,7 +30,7 @@ public class MyTextView extends View {
         integer = array.getInteger(R.styleable.test_textInt,-1);
         Log.e("!!!!!", "text = " + string + " , textAttr = " + integer);
 
-//        array.recycle();
+        array.recycle();
         //返回以前取回的属性，供以后使用。以前取回的可能就是textSize和textColor初始化的那段
     }
 
@@ -42,7 +42,6 @@ public class MyTextView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         Paint paint=new Paint(Color.BLUE);
-//        canvas.drawText(string,20,20,20,20,paint);
         canvas.drawText("哎",0,0,50,50,paint);
     }
 }
