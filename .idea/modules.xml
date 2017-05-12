@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/MyWatchBoard.iml" filepath="$PROJECT_DIR$/MyWatchBoard.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/okhttpdome/okhttpdome.iml" filepath="$PROJECT_DIR$/okhttpdome/okhttpdome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerviewdemo/recyclerviewdemo.iml" filepath="$PROJECT_DIR$/recyclerviewdemo/recyclerviewdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/自定义androidview属性/自定义androidview属性.iml" filepath="$PROJECT_DIR$/自定义androidview属性/自定义androidview属性.iml" />
       <module fileurl="file://$PROJECT_DIR$/自定义attribute/自定义attribute.iml" filepath="$PROJECT_DIR$/自定义attribute/自定义attribute.iml" />
       <module fileurl="file://$PROJECT_DIR$/自定义view/自定义view.iml" filepath="$PROJECT_DIR$/自定义view/自定义view.iml" />
